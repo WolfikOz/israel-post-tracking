@@ -1,0 +1,14 @@
+{
+  "name": "israel-post-tracking",
+  "version": "1.0.0",
+  "description": "Track packages via Israel Post (דואר ישראל)",
+  "main": "scripts/track.js",
+  "scripts": {
+    "track": "node scripts/track.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
